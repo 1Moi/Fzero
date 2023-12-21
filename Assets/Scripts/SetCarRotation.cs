@@ -95,7 +95,7 @@ public class SetCarRotation : MonoBehaviour
 
         //Physics.gravity = new Vector3(0, -1.0F, 0);
         //set the gravity to be the opposite of the normal of the surface the car is on
-        Physics.gravity = -hit.normal * 9.81f * 3f;
+        Physics.gravity = -hit.normal * 9.81f * 8f;
 
     }
 }
